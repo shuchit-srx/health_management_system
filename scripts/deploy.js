@@ -9,6 +9,9 @@ async function main() {
   console.log(` Contract Address: ${healthcare.address}`);
 }
 
+// npx hardhat run script/deploy.js --network holesky
+// npx hardhat run script/deploy.js --network localhost
+
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
